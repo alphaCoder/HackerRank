@@ -10,6 +10,8 @@ namespace HackerRank.Net.Strings
     {
        public static string ArrangeLexicographically(string s1, string s2)
         {
+            s1 = s1 + "$";
+            s2 = s2 + "$";
             StringBuilder sb = new StringBuilder();
             int i = 0, j = 0;
             while (i < s1.Length - 1 && j < s2.Length - 1)

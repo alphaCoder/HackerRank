@@ -52,6 +52,7 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="DynamicProgramming\MaxSubArrayTests.cs" />
     <Compile Include="Strings\ReverseShuffleMergeTests.cs" />
     <Compile Include="Strings\LoveLetterMysteryTests.cs" />
     <Compile Include="Strings\MorganAndStringTests.cs" />
