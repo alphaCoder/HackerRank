@@ -46,10 +46,17 @@
     <Compile Include="DynamicProgramming\MaxSubArray.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Strings\BearAndSteadyGene.cs" />
+    <Compile Include="Strings\BeautifyString.cs" />
+    <Compile Include="Strings\CamelCaseWordCount.cs" />
     <Compile Include="Strings\LoveLetterMystery.cs" />
+    <Compile Include="Strings\MarsExploration.cs" />
     <Compile Include="Strings\MorganAndString.cs" />
+    <Compile Include="Strings\PalindromeWithNDigitCheck.cs" />
     <Compile Include="Strings\ReverseShuffleMerge.cs" />
+    <Compile Include="Strings\StringConstruction.cs" />
     <Compile Include="Strings\SuffixArray.cs" />
+    <Compile Include="Strings\SuperSubString.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
