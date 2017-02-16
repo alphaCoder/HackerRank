@@ -54,6 +54,7 @@
     <Compile Include="Strings\MorganAndString.cs" />
     <Compile Include="Strings\PalindromeWithNDigitCheck.cs" />
     <Compile Include="Strings\ReverseShuffleMerge.cs" />
+    <Compile Include="Strings\SherlockAndAnagrams.cs" />
     <Compile Include="Strings\StringConstruction.cs" />
     <Compile Include="Strings\SuffixArray.cs" />
     <Compile Include="Strings\SuperSubString.cs" />
