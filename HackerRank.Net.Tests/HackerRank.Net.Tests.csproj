@@ -53,6 +53,8 @@
   </Choose>
   <ItemGroup>
     <Compile Include="DynamicProgramming\MaxSubArrayTests.cs" />
+    <Compile Include="Sorting\InsertionSortPart2Tests.cs" />
+    <Compile Include="Sorting\QuickSortTests.cs" />
     <Compile Include="Strings\CamelCaseCountTests.cs" />
     <Compile Include="Strings\ReverseShuffleMergeTests.cs" />
     <Compile Include="Strings\LoveLetterMysteryTests.cs" />

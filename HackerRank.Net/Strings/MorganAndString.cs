@@ -20,33 +20,24 @@ namespace HackerRank.Net.Strings
             stopwatch.Start();
             while (i < s1.Length - 1 && j < s2.Length - 1)
             {
-                if (s1[i] < s2[j])
+
+                if (Compare1(s1, s2, i, j) < 0)
                 {
                     sb.Append(s1[i++]);
-                }
-                else if (s1[i] > s2[j])
-                {
-                    sb.Append(s2[j++]);
+                    while (s1[i - 1] == s1[i] && i < s1.Length - 1)
+                    {
+                        sb.Append(s1[i++]);
+                    }
                 }
                 else
                 {
-                    if (Compare1(s1, s2, i, j) < 0)
-                    {
-                        sb.Append(s1[i++]);
-                        while (s1[i - 1] == s1[i] && i < s1.Length-1)
-                        {
-                            sb.Append(s1[i++]);
-                        }
-                    }
-                    else
+                    sb.Append(s2[j++]);
+                    while (s2[j - 1] == s2[j] && j < s2.Length - 1)
                     {
                         sb.Append(s2[j++]);
-                        while (s2[j - 1] == s2[j] && j < s2.Length-1)
-                        {
-                            sb.Append(s2[j++]);
-                        }
                     }
                 }
+
             }
             stopwatch.Stop();
             sb.Append(s1.Substring(i, s1.Length - i - 1));
