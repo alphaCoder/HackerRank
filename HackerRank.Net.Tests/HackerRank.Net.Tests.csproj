@@ -35,6 +35,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
   </ItemGroup>
   <Choose>
@@ -55,6 +59,8 @@
     <Compile Include="DynamicProgramming\MaxSubArrayTests.cs" />
     <Compile Include="Sorting\InsertionSortPart2Tests.cs" />
     <Compile Include="Sorting\QuickSortTests.cs" />
+    <Compile Include="Sorting\QuicksortInsertionsortRuntimeSwapsTests.cs" />
+    <Compile Include="Sorting\CountingSortTests.cs" />
     <Compile Include="Strings\CamelCaseCountTests.cs" />
     <Compile Include="Strings\ReverseShuffleMergeTests.cs" />
     <Compile Include="Strings\LoveLetterMysteryTests.cs" />
@@ -74,6 +80,9 @@
       <Project>{86bf01c8-6bae-486e-932c-b56c8800358e}</Project>
       <Name>HackerRank.Net</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

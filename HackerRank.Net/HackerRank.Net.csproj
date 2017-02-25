@@ -46,8 +46,10 @@
     <Compile Include="DynamicProgramming\MaxSubArray.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sorting\CountingSort.cs" />
     <Compile Include="Sorting\InsertionSortPart2.cs" />
     <Compile Include="Sorting\QuickSort.cs" />
+    <Compile Include="Sorting\QuicksortInsertionsortRuntimeSwaps.cs" />
     <Compile Include="Sorting\QuickSortPart2.cs" />
     <Compile Include="Strings\BearAndSteadyGene.cs" />
     <Compile Include="Strings\BeautifyString.cs" />
