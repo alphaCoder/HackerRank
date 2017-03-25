@@ -61,6 +61,7 @@
     <Compile Include="Sorting\QuickSortTests.cs" />
     <Compile Include="Sorting\QuicksortInsertionsortRuntimeSwapsTests.cs" />
     <Compile Include="Sorting\CountingSortTests.cs" />
+    <Compile Include="Sorting\InsertionSortAdvancedTests.cs" />
     <Compile Include="Strings\CamelCaseCountTests.cs" />
     <Compile Include="Strings\ReverseShuffleMergeTests.cs" />
     <Compile Include="Strings\LoveLetterMysteryTests.cs" />
