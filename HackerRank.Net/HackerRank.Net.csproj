@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -46,6 +47,13 @@
     <Compile Include="DynamicProgramming\MaxSubArray.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Searching\CutTheTree.cs" />
+    <Compile Include="Searching\HackerLandTransmitters.cs" />
+    <Compile Include="Searching\KdTree.cs" />
+    <Compile Include="Searching\KnightLOnChessboard.cs" />
+    <Compile Include="Searching\MaximizeMissionPoints.cs" />
+    <Compile Include="Searching\MaximumSubArraySumWithMod.cs" />
+    <Compile Include="Searching\RedBlackBST.cs" />
     <Compile Include="Sorting\CountingSort.cs" />
     <Compile Include="Sorting\InsertionSortAdvanced.cs" />
     <Compile Include="Sorting\InsertionSortPart2.cs" />

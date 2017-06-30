@@ -57,6 +57,9 @@
   </Choose>
   <ItemGroup>
     <Compile Include="DynamicProgramming\MaxSubArrayTests.cs" />
+    <Compile Include="Searching\HackerLandTransmittersTests.cs" />
+    <Compile Include="Searching\MaximumSubArraySumWithModTests.cs" />
+    <Compile Include="Searching\MaximizeMissionPointsTests.cs" />
     <Compile Include="Sorting\InsertionSortPart2Tests.cs" />
     <Compile Include="Sorting\QuickSortTests.cs" />
     <Compile Include="Sorting\QuicksortInsertionsortRuntimeSwapsTests.cs" />
